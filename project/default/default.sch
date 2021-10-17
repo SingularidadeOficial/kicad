@@ -1,0 +1,63 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 616CA784
+P 3900 2500
+F 0 "#PWR0101" H 3900 2350 50  0001 C CNN
+F 1 "+3.3V" H 3915 2673 50  0000 C CNN
+F 2 "" H 3900 2500 50  0001 C CNN
+F 3 "" H 3900 2500 50  0001 C CNN
+	1    3900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2500 3900 2550
+$Comp
+L power:GND #PWR0102
+U 1 1 616CAD36
+P 3900 3000
+F 0 "#PWR0102" H 3900 2750 50  0001 C CNN
+F 1 "GND" H 3905 2827 50  0000 C CNN
+F 2 "" H 3900 3000 50  0001 C CNN
+F 3 "" H 3900 3000 50  0001 C CNN
+	1    3900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3000 3900 2900
+$Comp
+L Device:R R1
+U 1 1 616CC48A
+P 4900 2850
+F 0 "R1" H 4970 2896 50  0000 L CNN
+F 1 "R" H 4970 2805 50  0000 L CNN
+F 2 "Resistor_THT:R_Box_L14.0mm_W5.0mm_P9.00mm" V 4830 2850 50  0001 C CNN
+F 3 "~" H 4900 2850 50  0001 C CNN
+	1    4900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2700 4900 2550
+Wire Wire Line
+	4900 2550 3900 2550
+Wire Wire Line
+	4900 3000 4050 3000
+Wire Wire Line
+	4050 3000 4050 2900
+Wire Wire Line
+	4050 2900 3900 2900
+$EndSCHEMATC
