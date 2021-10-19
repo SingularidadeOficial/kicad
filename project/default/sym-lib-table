@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name espressif)(type Legacy)(uri D:/02-Empresa/02-Singularidade/100-GITHUB/kicad/libraries/00-Microcontroladores/ALL/espressif.lib)(options "")(descr ""))
+)
