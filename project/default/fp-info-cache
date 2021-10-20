@@ -1,4 +1,4 @@
-19033961632820241
+19046857687491251
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -59695,41 +59695,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-P_Espressif
-B_ESP32S_NodeMCU_00
-
-
-0
-38
-38
-P_Espressif
-ESP-32S
-
-
-0
-39
-39
-P_Espressif
-ESP32
-
-
-0
-31
-31
-P_Espressif
-ESP32-WROOM
-
-
-0
-39
-39
-P_Espressif
-MODULE_ESP32-WROOM-32D
-
-
-0
-59
-59
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -76327,6 +76292,97 @@ rotary encoder
 0
 5
 4
+S-FOOTPRINT
+ESP12-F
+
+
+0
+31
+31
+S-FOOTPRINT
+ESP32-WROOM
+
+
+0
+39
+39
+S-FOOTPRINT
+ESP32-WROOM-32D
+
+
+0
+59
+59
+S-FOOTPRINT
+ESP32S
+
+
+0
+39
+39
+S-FOOTPRINT
+ESP32S_NodeMCU_00
+
+
+0
+38
+38
+S-FOOTPRINT
+RELAY_SRD-05VDC-SL-C
+
+
+0
+5
+5
+S-FOOTPRINT
+RJ11-6P4C
+<b>RJ11 Low Profile</b> No Shield</b><p>For all RJ11 N and Z Series Models<br>Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf
+
+0
+6
+6
+S-FOOTPRINT
+TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal
+Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5.08mm, size 10x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-2 pitch 5.08mm size 10x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+4
+2
+S-FOOTPRINT
+TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal_3D
+Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5.08mm, size 10x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-2 pitch 5.08mm size 10x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+4
+2
+S-FOOTPRINT
+TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal
+Terminal Block Phoenix MKDS-1,5-4-5.08, 4 pins, pitch 5.08mm, size 20.3x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-4-5.08 pitch 5.08mm size 20.3x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+8
+4
+S-FOOTPRINT
+TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal
+Terminal Block Phoenix MKDS-1,5-8-5.08, 8 pins, pitch 5.08mm, size 40.6x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-8-5.08 pitch 5.08mm size 40.6x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+8
+8
+S-FOOTPRINT
+USB_B_Micro
+
+
+0
+11
+6
+S-FOOTPRINT
+USB_C
+
+
+0
+20
+17
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf

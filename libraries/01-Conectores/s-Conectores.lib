@@ -3,17 +3,11 @@ EESchema-LIBRARY Version 2.4
 #
 # RJ11
 #
-DEF RJ11 J 0 40 N Y 1 L N
-F0 "J" -100 300 50 H V L BNN
+DEF RJ11 J? 0 40 N Y 1 F N
+F0 "J?" -100 300 50 H V L BNN
 F1 "RJ11" -100 -420 50 H V L BNN
-F2 "RJ11-NO_SHIELD" 0 0 50 H I L BNN
+F2 "S-FOOTPRINT:RJ11-6P4C" 150 100 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
-F4 "CONN MOD JACK 6P6C VERT UNSHLD" 0 0 50 H I L BNN "Description"
-F5 "Tyco/Chipcoolers" 0 0 50 H I L BNN "MF"
-F6 "Unavailable" 0 0 50 H I L BNN "Availability"
-F7 "RJ11" 0 0 50 H I L BNN "MP"
-F8 "None" 0 0 50 H I L BNN "Package"
-F9 "None" 0 0 50 H I L BNN "Price"
 DRAW
 P 2 0 0 10 0 -320 60 -320 N
 P 2 0 0 10 0 -280 0 -320 N
@@ -64,17 +58,11 @@ ENDDEF
 #
 # SRD-05VDC-SL-C
 #
-DEF SRD-05VDC-SL-C K 0 40 N N 1 F N
-F0 "K" -200 230 50 H V L BNN
+DEF SRD-05VDC-SL-C K? 0 40 N N 1 F N
+F0 "K?" -200 230 50 H V L BNN
 F1 "SRD-05VDC-SL-C" -200 -400 50 H V L BNN
-F2 "RELAY_SRD-05VDC-SL-C" 0 0 50 H I L BNN
+F2 "S-FOOTPRINT:RELAY_SRD-05VDC-SL-C" -50 250 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
-F4 "Unavailable" 0 0 50 H I L BNN "Availability"
-F5 "None" 0 0 50 H I L BNN "Price"
-F6 "Songle Relay" 0 0 50 H I L BNN "MF"
-F7 "5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi" 0 0 50 H I L BNN "Description"
-F8 "SRD-05VDC-SL-C" 0 0 50 H I L BNN "MP"
-F9 "None" 0 0 50 H I L BNN "Package"
 DRAW
 C 100 -100 10 0 0 6 N
 C 100 0 10 0 0 6 N
@@ -111,12 +99,11 @@ ENDDEF
 #
 # USB_B_Micro
 #
-DEF USB_B_Micro J 0 40 Y Y 1 F N
-F0 "J" -200 450 50 H V L CNN
+DEF USB_B_Micro J? 0 40 Y Y 1 F N
+F0 "J?" -200 450 50 H V L CNN
 F1 "USB_B_Micro" -200 350 50 H V L CNN
-F2 "" 150 -50 50 H I C CNN
+F2 "S-FOOTPRINT:USB_B_Micro" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
-ALIAS USB_B_Mini
 $FPLIST
  USB*
 $ENDFPLIST
